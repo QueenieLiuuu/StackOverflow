@@ -1,0 +1,55 @@
+.stackoverflow-center-page-header.ant-layout-header {
+  height: unset;
+  padding: unset;
+  color: unset;
+  line-height: unset;
+  background: unset;
+}
+
+.stackoverflow-center-page-banner-image {
+  width: 70%;
+  margin: 50px 15% 0 15%;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: 0 15%; /* try 20px 10px */
+  border-radius: 32px;
+}
+
+.stackoverflow-center-page-content {
+  flex: 0 0 63%;
+  margin-right: 2%;
+  min-width: 200px !important;
+}
+
+.stackoverflow-center-page-sider {
+  max-width: 350px !important;
+  min-width: 200px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .stackoverflow-center-page-layout {
+    width: 70%;
+    margin: 40px 15%;
+  }
+  .stackoverflow-center-page-sider{
+    flex: 0 0 35% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stackoverflow-center-page-banner-image {
+    display: none;
+  }
+  .stackoverflow-center-page-content {
+    width: 100% !important;
+    padding: 24px;
+
+  }
+
+  .stackoverflow-center-page-sider {
+    width: 100%!important;
+    flex: 0 0 100% !important;
+    max-width: 350px !important;
+    min-width: 200px !important;
+  }
+}

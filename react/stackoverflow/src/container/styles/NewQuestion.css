@@ -1,0 +1,6 @@
+.stackoverflow-new-question {
+  border-radius: 25px !important;
+}
+.stackoverflow-new-question button {
+  float: right;
+}

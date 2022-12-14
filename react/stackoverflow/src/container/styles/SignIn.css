@@ -1,0 +1,9 @@
+.stackoverflow-sign-in {
+  background: white;
+  padding: 24px;
+  border-radius: 25px;
+}
+.stackoverflow-sign-in a {
+  font-size: 20px;
+  color: #6074DD;
+}
